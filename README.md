@@ -1,2 +1,2 @@
-# edge-magento-module-customoptionimage
-Custom Option Image Module for Magento
+# edge-magento-module-deliveryinstructions
+Onepage checkout with delivery instructions
