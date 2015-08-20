@@ -29,7 +29,6 @@
             <sales_convert_quote>
                 <delivery_instructions><to_order>*</to_order></delivery_instructions>
             </sales_convert_quote>
-
             <sales_convert_order>
                 <delivery_instructions><to_quote>*</to_quote></delivery_instructions>
             </sales_convert_order>
