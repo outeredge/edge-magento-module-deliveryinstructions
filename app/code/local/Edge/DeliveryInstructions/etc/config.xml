@@ -5,6 +5,15 @@
             <version>1.0.0</version>
         </Edge_DeliveryInstructions>
     </modules>
+    <adminhtml>
+        <layout>
+            <updates>
+                <deliveryinstructions>
+                    <file>edge/deliveryinstructions.xml</file>
+                </deliveryinstructions>
+            </updates>
+        </layout>
+    </adminhtml>
     <global>
         <resources>
             <deliveryinstructions_setup>
