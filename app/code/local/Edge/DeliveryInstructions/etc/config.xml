@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Edge_DeliveryInstructions>
+            <version>1.0.0</version>
+        </Edge_DeliveryInstructions>
+    </modules>
+    <global>
+        <resources>
+            <deliveryinstructions_setup>
+                <setup>
+                    <module>Edge_DeliveryInstructions</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </deliveryinstructions_setup>
+        </resources>
+        <fieldsets>
+            <sales_convert_quote>
+                <delivery_instructions><to_order>*</to_order></delivery_instructions>
+            </sales_convert_quote>
+
+            <sales_convert_order>
+                <delivery_instructions><to_quote>*</to_quote></delivery_instructions>
+            </sales_convert_order>
+        </fieldsets>
+    </global>
+    <frontend>
+        <events>
+            <checkout_controller_onepage_save_shipping_method>
+                <observers>
+                    <delivery_instructions_observer>
+                        <class>Edge_DeliveryInstructions_Model_Observer</class>
+                        <method>saveDeliveryInstructions</method>
+                    </delivery_instructions_observer>
+                </observers>
+            </checkout_controller_onepage_save_shipping_method>
+        </events>
+    </frontend>
+</config>
