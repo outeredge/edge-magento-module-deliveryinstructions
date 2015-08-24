@@ -35,6 +35,13 @@
         </fieldsets>
     </global>
     <frontend>
+        <layout>
+            <updates>
+                <deliveryinstructions>
+                    <file>edge/deliveryinstructions.xml</file>
+                </deliveryinstructions>
+            </updates>
+        </layout>
         <events>
             <checkout_controller_onepage_save_shipping_method>
                 <observers>
