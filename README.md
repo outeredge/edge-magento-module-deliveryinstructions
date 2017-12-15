@@ -1,2 +1,1 @@
-# edge-magento-module-deliveryinstructions
-Onepage checkout with delivery instructions
+Magento Deliveryinstructions Module by outer/edge

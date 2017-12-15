@@ -1,0 +1,14 @@
+<div id="delivery-instructions">
+    <strong><?php echo __('Instructions') ?>:</strong>
+    <br/>
+    <span class="price"><?=$block->getDeliveryInstructions() ?></span>
+</div>
+<script type="text/javascript">
+    require(
+        ['jquery'],
+        function($) {
+            var element = $('#delivery-instructions').detach();
+            $('.box-order-shipping-method').append(element);
+        }
+    );
+</script>
