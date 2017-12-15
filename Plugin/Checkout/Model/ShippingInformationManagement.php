@@ -24,8 +24,8 @@ class ShippingInformationManagement
     ) {
         $extAttributes = $addressInformation->getExtensionAttributes();
         $deliveryInstructions = $extAttributes->getDeliveryInstructions();
+    
         $quote = $this->quoteRepository->getActive($cartId);
         $quote->setDeliveryInstructions($deliveryInstructions);
-    }
-    
+    }  
 }

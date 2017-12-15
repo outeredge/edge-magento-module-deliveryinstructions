@@ -28,6 +28,5 @@ class SaveDeliveryInstructionsToOrderObserver implements ObserverInterface
         $quote = $quoteRepository->get($order->getQuoteId());
         $order->setDeliveryInstructions($quote->getDeliveryInstructions());
         return $this;
-    }
-    
+    }  
 }

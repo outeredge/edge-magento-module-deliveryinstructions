@@ -18,7 +18,7 @@
                                                             <item name="displayArea" xsi:type="string">shippingAdditional</item>
                                                             <item name="children" xsi:type="array">
                                                                 <item name="delivery_instructions" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">OuterEdge_Deliveryinstructions/js/view/delivery-date-block</item>
+                                                                    <item name="component" xsi:type="string">OuterEdge_Deliveryinstructions/js/view/delivery-instructions-block</item>
                                                                 </item>
                                                             </item>
                                                         </item>

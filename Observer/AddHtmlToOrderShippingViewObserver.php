@@ -18,9 +18,10 @@ class AddHtmlToOrderShippingViewObserver implements ObserverInterface
     {
         $this->objectManager = $objectManager;
     }
+    
     public function execute(EventObserver $observer)
     {
-        if($observer->getElementName() == 'order_shipping_view') {
+        if ($observer->getElementName() == 'order_shipping_view') {
             $orderShippingViewBlock = $observer->getLayout()->getBlock($observer->getElementName());
             $order = $orderShippingViewBlock->getOrder();
             
