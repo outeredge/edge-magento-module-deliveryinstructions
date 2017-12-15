@@ -1,1 +1,1 @@
-Magento Deliveryinstructions Module by outer/edge
+Magento 2 Delivery Instructions Module by outer/edge
