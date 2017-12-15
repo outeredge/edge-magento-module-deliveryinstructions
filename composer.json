@@ -1,6 +1,6 @@
 {
-    "name": "outeredge/magento-deliveryinstructions-module",
-    "description": "Magento Deliveryinstructions Module by outer/edge",
+    "name": "outeredge/magento-delivery-instructions-module",
+    "description": "Magento Delivery Instructions Module by outer/edge",
     "type": "magento2-module",
     "license": [
         "OSL-3.0",
