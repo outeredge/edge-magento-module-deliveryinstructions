@@ -2,5 +2,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <type name="Magento\Checkout\Model\ShippingInformationManagement">
         <plugin name="outeredge_save_delivery_instructions_in_quote" type="OuterEdge\Deliveryinstructions\Plugin\Checkout\Model\ShippingInformationManagement" sortOrder="1"/>
+        <preference for="Magento\Sales\Model\Order" type="OuterEdge\Deliveryinstructions\Model\Order"/>
     </type>
 </config>
